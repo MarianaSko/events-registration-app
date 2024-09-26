@@ -24,7 +24,7 @@ const Layout = ({ sortOption, setSortOption }) => {
                 value={sortOption}
                 onChange={handleSortChange}
                 label="Sort by"
-                sx={{ minWidth: "200px", position: "relative" }}
+                sx={{ minWidth: "212px", position: "relative" }}
               >
                 <MenuItem value="title-asc">Title (A-Z)</MenuItem>
                 <MenuItem value="title-desc">Title (Z-A)</MenuItem>
