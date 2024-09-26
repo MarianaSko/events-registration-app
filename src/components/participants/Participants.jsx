@@ -30,7 +30,7 @@ const Participants = () => {
 
   return (
     <div>
-      {filteredParticipants.length !== 0 && (
+      {activeParticipants.length !== 0 && (
         <div className="mb-4 flex justify-center">
           <TextField
             label="Search by name or email"
